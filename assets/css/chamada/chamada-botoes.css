@@ -1,0 +1,7 @@
+.chamada__botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 57px 0px;
+}

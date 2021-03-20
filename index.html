@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro layout</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meu primeiro layout</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/cabecalho.css">
+	<link rel="stylesheet" href="assets/css/cabecalho/cabecalho-logo.css">
+	<link rel="stylesheet" href="assets/css/cabecalho/cabecalho-menu.css">
+	<link rel="stylesheet" href="assets/css/cabecalho/menu/menu-login.css">
+	<link rel="stylesheet" href="assets/css/cabecalho/menu/menu-mobile.css">
+	<link rel="stylesheet" href="assets/css/container.css">
+	<link rel="stylesheet" href="assets/css/chamada.css">
+	<link rel="stylesheet" href="assets/css/chamada/chamada-textos.css">
+	<link rel="stylesheet" href="assets/css/chamada/texto/chamada-titulo.css">
+	<link rel="stylesheet" href="assets/css/chamada/texto/chamada-descricao.css">
+	<link rel="stylesheet" href="assets/css/chamada/chamada-botoes.css">
+	<link rel="stylesheet" href="assets/css/chamada/botoes/chamada-botaoAzul.css">
+	<link rel="stylesheet" href="assets/css/chamada/botoes/chamada-botaoPadrao.css">
+	<link rel="stylesheet" href="assets/css/chamada/boards.css">
+	<link rel="stylesheet" href="assets/css/chamada/boards/dashboard.css">
+	<link rel="stylesheet" href="assets/css/chamada/boards/chatbot.css">
+	<link rel="stylesheet" href="assets/css/chamada/boards/board.css">
 </head>
+
 <body>
-    <h1> teste</h1>
-    <p>vamos tentar de novo</p>
-    <!--
+	<header class="cabecalho">
+		<img src="assets/img/header/dark-logo.svg" alt="logo" class="cabecalho__logo">
+		<nav class="cabecalho__menu">
+			<button class="menu__login">Login</button>
+			<span class="iconify menu__mobile" data-inline="false" data-icon="bx:bx-menu-alt-right"
+				style="color: #ffffff; font-size: 53px;"></span>
+		</nav>
+	</header>
+	<main class="container">
+		<section class="chamada">
+			<div class="chamada__textos">
+				<h1 class="chamada__titulo">Work at the speed of thought</h1>
+				<h2 class="chamada__descricao">most calendars are designed for teams. Slate is desgined for freelancers who want a simple way to plan ther schedule
+			</div>
+			</h2>
+			<div class="chamada__botoes">
+				<button class="chamada__botaoAzul">Try For Free
+				</button>
+				<button class="chamada__botaoPadrao">Learn more
+				</button>
+			</div>
+			<figure class="boards">
+				<img class="boards_dashboard"  src="assets/img/header/Boards.svg" alt="board">
+				<img class="boards_chatBot" src="assets/img/header/Chat Bot.svg" alt="chat bot">
+				<img class="boards_board" src="assets/img/header/Dashboard.svg" alt="Dashboard">
+			</figure>
+		</section>
+	</main>
+	<footer class="rodape">
+
+	</footer>
+	<!--
         ICONES ICONIFY
+    menu-Mobile
+    <span class="iconify" data-inline="false" data-icon="bx:bx-menu-alt-right" style="color: #ffffff; font-size: 53px;"></span>
     Partners    
     <span class="iconify" data-inline="false" data-icon="logos:android-icon" style="font-size: 70.546875px;"></span>
     <span class="iconify" data-inline="false" data-icon="logos:apple-app-store" style="font-size: 60px;"></span>
@@ -26,8 +82,8 @@
     <span class="iconify" data-inline="false" data-icon="ant-design:linkedin-filled" style="color: #ffffff; font-size: 40.986595153808594px;"></span>
 
 -->
-    
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
 
 </html>

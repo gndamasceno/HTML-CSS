@@ -1,0 +1,27 @@
+.chamada__botaoPadrao{
+    Fill: Solid;
+    width: 176px;
+    height: 52px;
+    left: 127px;
+    top: 272px;
+    padding: 10px 30px;
+    /* primary */
+
+    background: #181818;
+    /* shadow */
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    /* Button */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* or 147% */
+
+    letter-spacing: 0.2px;
+
+    color: #C4C4C4;
+}

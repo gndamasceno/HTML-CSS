@@ -12,5 +12,8 @@
     O template escolhido foi o <b>Figma  startup landing page dark</b>, disponível  em: 
     https://www.figma.com/community/file/827488004796756851.
   </p>
+  <p>
+    Para ver o resultado do projeto, acesse: https://gndamasceno.github.io/Serie-HTML-CSS/
+  </p>
 
    

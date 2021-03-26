@@ -1,0 +1,12 @@
+.boards__board{
+    position: absolute;
+    width: 245.19px;
+    height: 225.98px;
+    left: calc(50% - 245.19px/2 - 92.36px);
+    top: calc(50% - 225.98px/2 + 50.02px);
+    transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0);
+    /**
+    */
+  
+    fill: url("../../../img/header/Boards.svg");
+}

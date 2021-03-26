@@ -1,0 +1,7 @@
+.features__painel{
+    margin:20px 6%;
+}
+.features__painel img{
+    background: no-repeat center / cover;
+    width: 100%;
+}

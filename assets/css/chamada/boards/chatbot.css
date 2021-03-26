@@ -1,0 +1,12 @@
+.boards__chatBot{
+    position: absolute;
+    width: 245.19px;
+    height: 237.28px;
+    left: calc(50% - 245.19px/2 + 291.65px);
+    top: calc(50% - 237.28px/2 + 41.69px);
+    transform: matrix(0.71, 0.54, -0.93, 0.71, 0, 0);
+    /**
+    */
+   
+    fill: url(../../../img/header/ChatBot.png);
+}

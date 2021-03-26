@@ -29,6 +29,15 @@
 	<link rel="stylesheet" href="assets/css/chamada/boards/dashboard.css">
 	<link rel="stylesheet" href="assets/css/chamada/boards/chatbot.css">
 	<link rel="stylesheet" href="assets/css/chamada/boards/board.css">
+	<link rel="stylesheet" href="assets/css/features.css">
+	<link rel="stylesheet" href="assets/css/features/features-containerTexto.css">
+	<link rel="stylesheet" href="assets/css/features/texto/features-titulo.css">
+	<link rel="stylesheet" href="assets/css/features/texto/features-descricao.css">
+	<link rel="stylesheet" href="assets/css/features/features-painel.css">
+	<link rel="stylesheet" href="assets/css/features/features-lista.css">
+	<link rel="stylesheet" href="assets/css/features/lista/features-ItemLista.css">
+	<link rel="stylesheet" href="assets/css/features/lista/features-itemTitulo.css">
+	<link rel="stylesheet" href="assets/css/features/lista/features-itemDescricao.css">
 </head>
 
 <body>
@@ -40,8 +49,8 @@
 				style="color: #ffffff; font-size: 53px;"></span>
 		</nav>
 	</header>
-	<main class="container">
-		<section class="chamada">
+	<main class="main">
+		<section class="chamada container">
 			<div class="chamada__textos">
 				<h1 class="chamada__titulo">Work at the speed of thought</h1>
 				<h2 class="chamada__descricao">most calendars are designed for teams. Slate is desgined for freelancers who want a simple way to plan ther schedule
@@ -54,12 +63,46 @@
 				</button>
 			</div>
 			<figure class="boards">
-				<img class="boards_dashboard"  src="assets/img/header/Boards.svg" alt="board">
-				<img class="boards_chatBot" src="assets/img/header/Chat Bot.svg" alt="chat bot">
-				<img class="boards_board" src="assets/img/header/Dashboard.svg" alt="Dashboard">
+				<div class="boards__dashboard">a</div>
+				<div class="boards__chatBot">a </div>
+				<div class="boards__board" > a</div>
 			</figure>
 		</section>
+		<section class="features container">
+			<div class="features__containerTexto">
+				<h2 class="features__titulo">Features</h2>
+				<p class="features__descricao">Most calendars are designed for teams. Slate us designed for freelancer who want a simple way to plan their schedule.</p>
+			</div>
+			<figure class="features__painel">
+				<img src="assets/img/feature5-feature/frame/ChatBot.svg" alt="ChatBot">
+			</figure>
+			<ul class="features__lista">
+				<li class="features__itemLista features__itemLista--garfo">
+					<div class="features__containerIcone">
+						<span class="iconify" data-inline="false" data-icon="ic:round-restaurant-menu" style="color: #02e4c0; font-size: 51.66490173339844px;"></span>
+						<h2 class="features__itemTitulo">A single source of truth</h2>
+					</div>	
+					<p class="features__itemDescricao">When you add work to your Slate calendar we automatically calculate useful insights </p>
+				</li>
+				<li class="features__itemLista features__itemLista--alien">
+					<div class="features__containerIcone">
+						<span class="iconify" data-inline="false" data-icon="mdi:alien-outline" style="color: #02e4c0; font-size: 40px;"></span>
+						<h2 class="features__itemTitulo">Intuitive interface</h2>
+					</div>
+					<p class="features__itemDescricao">When you add work to your Slate calendar we automatically calculate useful insights</p>
+				</li>
+				<li class="features__itemLista features__itemLista--cobrinha">
+					<div class="features__containerIcone">
+						<span class="iconify" data-inline="false" data-icon="mdi:all-inclusive" style="color: #02e4c0; font-size: 47px;"></span>
+						<h2 class="features__itemTitulo">Or with rules</h2>
+					</div>
+					<p class="features__itemDescricao">When you add work to your Slate calendar we automatically calculate useful insights</p>
+				</li>
+			</ul>
+		</section>
+		
 	</main>
+
 	<footer class="rodape">
 
 	</footer>

@@ -1,10 +1,3 @@
 .chamada{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0px;
-
-    padding-right: 6%;
-    padding-left: 6%;
-
+    height: calc(100vh - 111px);
 }

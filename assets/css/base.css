@@ -2,3 +2,10 @@ body{
     background-color: #181818;
     font-family: 'Montserrat', sans-serif; 
 }
+.container{
+    padding-right: 6%;
+    padding-left: 6%;
+}
+main {
+    width: 100vw;
+}

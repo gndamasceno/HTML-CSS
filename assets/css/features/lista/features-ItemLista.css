@@ -1,0 +1,26 @@
+.features__itemLista{
+    max-width: 269px;
+
+    background-repeat: no-repeat;
+    background-position: top - 1.25rem left - 2.5rem;
+    margin: 10px;
+
+}
+.features__containerIcone{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+}
+/*
+.features__icone{
+    background-image: url(../../../img/feature5-feature/icones/garfoColher.svg);
+}
+
+.features__itemLista--alien{
+    background-image: url(../../../img/feature5-feature/icones/alien.svg);
+}
+.features__itemLista--cobrinha{
+    background-image: url(../../../img/feature5-feature/icones/cobrinha.svg);
+}
+*/

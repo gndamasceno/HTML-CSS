@@ -1,16 +1,17 @@
-.chamada__descricao{
-    /* Sub Heading */
-
+.features__titulo{
+    /* Second Headline */
 
     font-family: Montserrat, cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 52px;
+    line-height: 62px;
     margin:10px;
-    /* or 150% */
+    /* identical to box height, or 119% */
 
     letter-spacing: 0.2px;
+
+    /* light text */
 
     color: #FFFFFF;
 }

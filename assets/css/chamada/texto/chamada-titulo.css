@@ -1,14 +1,15 @@
 .chamada__titulo{
-    font-family: Montserrat;
+    font-family: Montserrat, cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 52px;
     line-height: 62px;
+    margin:10px;
     /* or 119% */
 
     letter-spacing: 0.2px;
 
-    color: #C4C4C4;
+    color: #FFFFFF;
 
 
     

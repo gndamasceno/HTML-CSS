@@ -1,0 +1,13 @@
+.contents__descricao{
+    font-family: Montserrat, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin:10px;
+    /* or 150% */
+
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}

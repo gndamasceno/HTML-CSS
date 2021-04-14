@@ -1,0 +1,12 @@
+.cadastro__tela{
+    background: url(../../../img/darkContent8-content/Screenbackground.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2%;
+    padding: 3px;
+    margin: 1rem 1rem;
+    
+}
+.cadastro__tela img{
+    width: 100%;
+}

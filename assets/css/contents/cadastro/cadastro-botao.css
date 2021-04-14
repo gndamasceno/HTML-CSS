@@ -1,0 +1,28 @@
+.cadastro__botao{
+    Fill: Solid;
+    width: 176px;
+    height: 52px;
+    left: 127px;
+    top: 272px;
+    padding: 10px 30px;
+    margin: 21px 0px;
+    /* primary */
+
+    background: #4452FE;
+    /* shadow */
+
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    /* Button */
+    border: none;
+
+    font-family: Montserrat, cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* or 147% */
+
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}

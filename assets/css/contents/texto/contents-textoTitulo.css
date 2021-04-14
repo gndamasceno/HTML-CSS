@@ -1,0 +1,17 @@
+.contents__titulo{
+    /* Second Headline */
+
+    font-family: Montserrat, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 62px;
+    margin:10px;
+    /* identical to box height, or 119% */
+
+    letter-spacing: 0.2px;
+
+    /* light text */
+
+    color: #FFFFFF;
+}

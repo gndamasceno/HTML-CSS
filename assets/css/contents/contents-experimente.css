@@ -1,0 +1,6 @@
+.contents__experimente{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
